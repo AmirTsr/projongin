@@ -8,6 +8,7 @@ func getUser(c *gin.Context) {
 	c.JSON(200, gin.H{
 		"privet": "poka",
 		"123": 456,
+		"321": 123,
 	})
 }
 
